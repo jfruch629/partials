@@ -1,0 +1,7 @@
+<!-- Take flash code from application.html.erb -->
+<% flash.each do |type, message| %>
+  <div data-alert class="alert-box <%= type %>">
+    <%= message %>
+    <a href="#" class="close">&times;</a>
+  </div>
+<% end %>

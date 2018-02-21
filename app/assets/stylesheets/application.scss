@@ -1,0 +1,21 @@
+@import "color";
+@import "foundation_and_overrides";
+@import "foundation-icons";
+@import "*";
+
+body {
+  background: $secondary-color;
+  color: $primary-color;
+}
+
+nav.top-bar > * {
+  background: $alert-color;
+}
+
+nav.sidebar > * {
+  color: #303E4C;
+  height: 100;
+  width: 20%;
+  float: left;
+  background-color: black;
+}
